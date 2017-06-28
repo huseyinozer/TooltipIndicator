@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    tools:context=".MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+    <me.huseyinozer.TooltipIndicator
+        android:id="@+id/tooltip_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="100dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        app:ti_lineHeight="6dp"
+        app:ti_lineMargin="4dp"
+        app:ti_lineWidth="24dp"
+        app:ti_lineWidthSelected="80dp"
+        app:ti_selectedLineDrawable="@drawable/tooltip_indicator_rounded_line_selected"
+        app:ti_tooltipHeight="180dp"
+        app:ti_tooltipWidth="100dp"
+        app:ti_unselectedLineDrawable="@drawable/tooltip_indicator_rounded_line_unselected" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TooltipIndicator">
+        <attr name="ti_lineWidth" format="dimension" />
+        <attr name="ti_lineWidthSelected" format="dimension" />
+        <attr name="ti_lineHeight" format="dimension" />
+        <attr name="ti_lineMargin" format="dimension" />
+
+        <attr name="ti_tooltipWidth" format="dimension" />
+        <attr name="ti_tooltipHeight" format="dimension" />
+
+        <attr name="ti_selectedLineDrawable" format="reference" />
+        <attr name="ti_unselectedLineDrawable" format="reference" />
+
+    </declare-styleable>
+
+</resources>

@@ -1,5 +1,11 @@
 # Tooltip Indicator
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-TooltipIndicator-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5940)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/me.huseyinozer/tooltipindicator/badge.svg)](https://search.maven.org/#artifactdetails%7Cme.huseyinozer%7Ctooltipindicator%7C0.0.1%7Caar)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
+
+An indicator with preview support that you can use in the ViewPager.
+
 ![](preview.gif)
 
 Layout:
